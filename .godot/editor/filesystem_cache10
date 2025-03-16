@@ -1,0 +1,70 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742137548
+Camera2D.gd::GDScript::-1::1742137548::0::1::::<>Camera2D<><>0<>0<><>::
+Camera2D.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::
+default_env.tres::Environment::-1::1742137548::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D::62872593249492111::1742137548::1742137552::1::::<><><>0<>0<>a585f163dbba94b50e3fbba45d5afb11<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+Stats.gd::GDScript::-1::1742137548::0::1::::<>Node<><>0<>0<><>::
+Stats.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::
+World.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::
+::res://Effects/::1742137548
+Effect.gd::GDScript::4464354587917389998::1742137548::0::1::::<>AnimatedSprite<><>0<>0<><>::
+EnemyDeathEffect.png::CompressedTexture2D::1045480723303364939::1742137548::1742137552::1::::<><><>0<>0<>91e21818fc9be901e0d6990329d3c1df<>res://.godot/imported/EnemyDeathEffect.png-b5f2aceef00ffbc3c194806ee7af6666.ctex::
+EnemyDeathEffect.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Effects/Effect.gd<>res://Effects/EnemyDeathEffect.png<>res://Music and Sounds/EnemyDie.wav
+GrassEffect.png::CompressedTexture2D::5684598543633786826::1742137548::1742137552::1::::<><><>0<>0<>39dec238237aea150018684365844b4e<>res://.godot/imported/GrassEffect.png-e13c4c94a67cb5ef9b389379ed46bf17.ctex::
+GrassEffect.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Effects/GrassEffect.png<>res://Effects/Effect.gd
+HitEffect.png::CompressedTexture2D::6840191718795295426::1742137548::1742137552::1::::<><><>0<>0<>6ecdcb56d24f4ac9d394e7d1fdf6754f<>res://.godot/imported/HitEffect.png-4a350a9d7635dd7543954c4499aead9c.ctex::
+HitEffect.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Effects/HitEffect.png<>res://Effects/Effect.gd<>res://Music and Sounds/Hit.wav
+::res://Enemies/::1742137548
+Bat.gd::GDScript::997109692417757443::1742137548::0::1::::<>KinematicBody2D<><>0<>0<><>::
+Bat.png::CompressedTexture2D::7930378754135560942::1742137548::1742137552::1::::<><><>0<>0<>d17d7490207af5cf7152f1cdae35aabb<>res://.godot/imported/Bat.png-38405154cd5b8ff1c5e2fcf1cef1c3e6.ctex::
+Bat.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Enemies/Bat.png<>res://Shadows/SmallShadow.png<>res://Overlap/Hurtbox.tscn<>res://Enemies/Bat.gd<>res://Stats.tscn<>res://Enemies/PlayerDetectionZone.tscn<>res://Overlap/Hitbox.tscn<>res://Overlap/SoftCollision.tscn<>res://Enemies/WanderController.tscn<>res://WhiteColor.shader
+PlayerDetectionZone.gd::GDScript::2619153252916042319::1742137548::0::1::::<>Area2D<><>0<>0<><>::
+PlayerDetectionZone.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Enemies/PlayerDetectionZone.gd
+WanderController.gd::GDScript::6074399445030481110::1742137548::0::1::::<>Node2D<><>0<>0<><>::
+WanderController.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Enemies/WanderController.gd
+::res://Music and Sounds/::1742137548
+EnemyDie.wav::AudioStreamWAV::3261531950294476783::1742137548::1742137552::1::::<><><>0<>0<>98684f4e25f88b86caca905a0e235737<>res://.godot/imported/EnemyDie.wav-a486c87c5ffce10facfdaf6e118ee22d.sample::
+Evade.wav::AudioStreamWAV::5668923887569148142::1742137548::1742137552::1::::<><><>0<>0<>5fe11ad8d35037c878b13b7fa7f41372<>res://.godot/imported/Evade.wav-cd612618661f05b5e39dccebc8901a0b.sample::
+Hit.wav::AudioStreamWAV::5550052083220634050::1742137548::1742137552::1::::<><><>0<>0<>71f7b6c9f772b7d4490e3c97aaa29285<>res://.godot/imported/Hit.wav-0fa8d06aa64f0c3d5cf8be50a2076760.sample::
+Hurt.wav::AudioStreamWAV::4265890547899955527::1742137548::1742137552::1::::<><><>0<>0<>b9d34d87106a1d4a679e3915797fe206<>res://.godot/imported/Hurt.wav-9a8feff0886efa16ed78b7703de45922.sample::
+Menu Move.wav::AudioStreamWAV::1501077637461198446::1742137548::1742137552::1::::<><><>0<>0<>fcf4acc7d1f4ffb9eb272d4eba2c11a2<>res://.godot/imported/Menu Move.wav-d97a887eeb77e9f82d0179618aff26aa.sample::
+Menu Select.wav::AudioStreamWAV::2841118099680787923::1742137548::1742137552::1::::<><><>0<>0<>ef666a3589979ae8d5ce5722836caa29<>res://.godot/imported/Menu Select.wav-cf35ab6ee2afc13096e6bf584e78dcaf.sample::
+Pause.wav::AudioStreamWAV::1693500978266431289::1742137548::1742137552::1::::<><><>0<>0<>7db77d925f7edb140826a29839e88311<>res://.godot/imported/Pause.wav-2283faeb42b74e3f6e4809669cc9a8ab.sample::
+Swipe.wav::AudioStreamWAV::9043834425561637755::1742137548::1742137552::1::::<><><>0<>0<>d773b19c22467ba05b874765261d220a<>res://.godot/imported/Swipe.wav-1b0f341b1727da219872e70c921da651.sample::
+Unpause.wav::AudioStreamWAV::6510069249251761871::1742137548::1742137552::1::::<><><>0<>0<>16878cdf15adeb2077f3008b2720b4f0<>res://.godot/imported/Unpause.wav-804d58e6ee88c8f6467ca3b5bea5857f.sample::
+::res://Overlap/::1742137548
+Hitbox.gd::GDScript::1201465573055818552::1742137548::0::1::::<>Area2D<><>0<>0<><>::
+Hitbox.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Overlap/Hitbox.gd
+Hurtbox.gd::GDScript::1298466364452370874::1742137548::0::1::::<>Area2D<><>0<>0<><>::
+Hurtbox.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Overlap/Hurtbox.gd
+SoftCollision.gd::GDScript::4294466267628452685::1742137548::0::1::::<>Area2D<><>0<>0<><>::
+SoftCollision.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Overlap/SoftCollision.gd
+::res://Player/::1742137548
+Player.gd::GDScript::1359734325961319991::1742137548::0::1::::<>KinematicBody2D<><>0<>0<><>::
+Player.png::CompressedTexture2D::8106072625573079844::1742137548::1742137552::1::::<><><>0<>0<>21356e8f42676010a306da797c82a17e<>res://.godot/imported/Player.png-3d0801c65bdfc563657cfa304115f1c7.ctex::
+Player.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Player/Player.png<>res://Player/Player.gd<>res://Overlap/Hitbox.tscn<>res://Player/SwordHitbox.gd<>res://Overlap/Hurtbox.tscn<>res://Shadows/MediumShadow.png<>res://Music and Sounds/Swipe.wav<>res://Music and Sounds/Evade.wav<>res://WhiteColor.shader
+PlayerHurtSound.gd::GDScript::8472491430916783954::1742137548::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
+PlayerHurtSound.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Music and Sounds/Hurt.wav<>res://Player/PlayerHurtSound.gd
+PlayerStats.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://Stats.tscn
+SwordHitbox.gd::GDScript::8119749145267617266::1742137548::0::1::::<>Area2D<><>0<>0<><>::
+::res://Shadows/::1742137548
+LargeShadow.png::CompressedTexture2D::7206497674955613880::1742137548::1742137552::1::::<><><>0<>0<>add745f96a83cbc94698353e87dbffb6<>res://.godot/imported/LargeShadow.png-f9f465d3bd6a830d0053dcccc744b5ab.ctex::
+MediumShadow.png::CompressedTexture2D::6758037234480902476::1742137548::1742137552::1::::<><><>0<>0<>87602ffaf82a5968f13328aec86be553<>res://.godot/imported/MediumShadow.png-a006169ce9c485f0f94bc7dc3bc8473f.ctex::
+SmallShadow.png::CompressedTexture2D::7990117405116732160::1742137548::1742137552::1::::<><><>0<>0<>c937e56a52760e979e3c7d053329d257<>res://.godot/imported/SmallShadow.png-5e32714e38d94da2c1b597c947bda29e.ctex::
+::res://UI/::1742137548
+HealthUI.gd::GDScript::256606847039437414::1742137548::0::1::::<>Control<><>0<>0<><>::
+HealthUI.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://UI/HealthUI.gd<>res://UI/HeartUIFull.png<>res://UI/HeartUIEmpty.png
+HeartUIEmpty.png::CompressedTexture2D::6498442368638835358::1742137548::1742137552::1::::<><><>0<>0<>e3777bf3e76a28794dccf71df445662e<>res://.godot/imported/HeartUIEmpty.png-417b0a6fe975644d9dba3671413f10e5.ctex::
+HeartUIFull.png::CompressedTexture2D::1013000821293073977::1742137548::1742137552::1::::<><><>0<>0<>3d02473a036b2c193a6a0652fbec0d97<>res://.godot/imported/HeartUIFull.png-e9d9ebbeee52aaa00895457d920c0f53.ctex::
+::res://World/::1742137548
+Bush.png::CompressedTexture2D::6035604908714896989::1742137548::1742137552::1::::<><><>0<>0<>8ac732d382d9672a348654c9946f8db8<>res://.godot/imported/Bush.png-d93cca107fd3c67cf3a69a32232496ae.ctex::
+Bush.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://World/Bush.png<>res://Shadows/LargeShadow.png
+CliffTileset.png::CompressedTexture2D::6606055070344086124::1742137548::1742137552::1::::<><><>0<>0<>b5d35a853a3b9978424661470142071b<>res://.godot/imported/CliffTileset.png-beb1369a7815e4e7ee0afe974b2636cf.ctex::
+DirtTileset.png::CompressedTexture2D::1162520774295443845::1742137548::1742137552::1::::<><><>0<>0<>b1736d5787ea1f4d1132bc71d95c543a<>res://.godot/imported/DirtTileset.png-4e52e2a032d2a3147ded644a2054b3ec.ctex::
+Grass.gd::GDScript::5466091981457582663::1742137548::0::1::::<>Node2D<><>0<>0<><>::
+Grass.png::CompressedTexture2D::2578255039650103105::1742137548::1742137552::1::::<><><>0<>0<>4dc68b6d5f09c3ad874b0448aea6c365<>res://.godot/imported/Grass.png-c8db04a845a94a62395b8fc264a498a7.ctex::
+Grass.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://World/Grass.png<>res://World/Grass.gd<>res://Overlap/Hurtbox.tscn
+GrassBackground.png::CompressedTexture2D::8173212591972916925::1742137548::1742137552::1::::<><><>0<>0<>5064a6d0c5c44ff1e9a0e65494445df1<>res://.godot/imported/GrassBackground.png-97f32375e80ccfc9d4addd18e4430882.ctex::
+Tree.png::CompressedTexture2D::8847456572609894824::1742137548::1742137552::1::::<><><>0<>0<>0f63fb0ded64e5ac906daee425bc4d91<>res://.godot/imported/Tree.png-14ac646b55f931abf82a3d71f0acdb7a.ctex::
+Tree.tscn::PackedScene::-1::1742137548::0::1::::<><><>0<>0<><>::res://World/Tree.png<>res://Shadows/LargeShadow.png
